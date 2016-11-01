@@ -44,8 +44,8 @@
   Zero or Ones for each variable (column) in each observation (row).
 }
 \note{The \code{Theta} and \code{Phi} matrix can be obtained for the i-th gibbs
-sampling using \code{matrix(Theta,nrow=nrow(data),ncol=n_community)} and
-\code{matrix(Phi,nrow=n_community,ncol=ncol(data))}, respectively.}
+sampling using \code{matrix(Theta[i,], nrow = nrow(data), ncol = n_community)} and
+\code{matrix(Phi[i,], nrow = n_community, ncol = ncol(data))}, respectively.}
 \references{
   \itemize{
     \item
