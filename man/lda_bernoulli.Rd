@@ -15,10 +15,10 @@
     (i.e. Plots, Locations, Time, etc.) and each column is a categorical
     type of element (i.e. Species, Firms, Issues, etc.). The elements inside
     this data.frame must be Zeros and Ones.}
-  \item{n_community}{Total number of communities want to return. It must be less than
+  \item{n_community}{Total number of communities to return. It must be less than
   the total number of columns inside the \code{data} data.frame.}
-  \item{alpha0}{Hyperparameter associated with the Beta prior Beta(alpha0,alpha1).}
-  \item{alpha1}{Hyperparameter associated with the Beta prior Beta(alpha0,alpha1).}
+  \item{alpha0}{Hyperparameter associated with the Beta prior Beta(alpha0, alpha1).}
+  \item{alpha1}{Hyperparameter associated with the Beta prior Beta(alpha0, alpha1).}
   \item{gamma}{Hyperparameter associated with the Stick-Breaking prior.}
   \item{n_gibbs}{Total number of Gibbs Samples.}
   \item{ll_prior}{boolean scalar, \code{TRUE} if the log-likelihood
